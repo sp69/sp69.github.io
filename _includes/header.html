@@ -35,9 +35,9 @@
 					<nav id="nav">
 						<ul>
 							{% assign current = page.url | downcase | split: '/' %}
-							<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
+							<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index.html">Start</a></li>
 							<li>
-								<a href="">Dropdown</a>
+								<a href="">Portfolio</a>
 								<ul>
 									<li><a href="#">Lorem dolor</a></li>
 									<li><a href="#">Magna phasellus</a></li>
@@ -60,6 +60,7 @@
 							<li {% if current[1] == 'right-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/right-sidebar.html">Right Sidebar</a></li>
 							<li {% if current[1] == 'two-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/two-sidebar.html">Two Sidebar</a></li>
 							<li {% if current[1] == 'no-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/no-sidebar.html">No Sidebar</a></li>
+							<li {% if current[1] == 'kontakt.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/kontakt.html">Kontakt</a></li>
 						</ul>
 					</nav>
 
